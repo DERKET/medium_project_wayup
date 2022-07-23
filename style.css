@@ -1,2 +1,231 @@
-html,body{
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+
+div, p, input, button, form,  a, ul, li {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  margin: 0;
+}
+
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 151, 255, 0.5298494397759104) 45%, rgba(0, 212, 255, 1) 100%);
+    padding-top: 100px;
+} 
+
+.intro {
+  color: white;
+}
+
+.desctop {
+  width: 541px;
+  height: 541px;
+  left: 963px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+.title {
+  font-size:  36px;
+}
+
+.btn {
+  background: #FFD429;
+  position: absolute;
+  width: 222px;
+  text-align: center;
+  height: 56px;
+  padding: 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  size: 15px;
+  line-height: 27px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+ 
+}
+
+.skill {
+  width: 250px;
+  background: url('../img/time-machine.png') no-repeat center top;
+  padding-top: 65px;
+}
+
+.skill-title {
+  font-size: 19px;
+  padding-left: 40px;
+
+}
+
+.skill-text {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.skill-free {
+  width: 250px;
+  background: url('../img/beach.png') no-repeat center top;
+}
+
+.skill-change {
+  background: url('../img/launch.png') no-repeat center top;
+}
+
+.mail {
+  background: #efecf4;  
+  padding-bottom: 190px;
+}
+.input {
+  width: 100%;
+  width: 340px;
+  border: 1px solid #bfb8d1;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  height: 56px;
+  
+}
+
+.form {
+  height: 500px;
+  padding-left: 410px;
+  padding-top: 100px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn2 {
+
+      background: #FFD429;
+      position: absolute;
+      width: 340px;
+      height: 56px;
+      text-align: center;
+      color: rgba(0, 0, 0, 1);
+        size: 15px;
+        line-height: 27px;
+        font-family: Montserrat;
+        font-weight: 900;
+}
+
+
+.section-title {
+  text-align: center;
+}
+
+.footer {
+  padding: 33px 0;
+  background: #164D7A;
+}
+
+.credits {
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+h1 {
+color: white;
+font-size: 57px;
+
+}
+
+.span {
+  color: white;
+}
+
+@media screen and (max-width:1200px){
+  .container {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .container {
+    width: 720px;
+  }
+  .wrapper {
+
+    flex-direction: column;
+  }
+  .offer{
+    width: 100%;
+  }
+  .intro{
+    width: auto;
+  }
+  .desctop{
+    display: block;
+    width: 100%;
+    margin: 72px auto 0;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skill{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+.container{
+  width: 540px;
+}
+.desctop{
+  width: 100%;
+}
+.input {
+  width: 340px;
+}
+.btn{
+  margin-left: 0;
+  margin-top: 15px;
+  width: 500px;
+}
+.form {
+  padding-left: 90px;
+}
+}
+
+@media screen and (max-width:576px) {
+.container{
+  width: 90%;
+}
+.btn{
+  width: 340px;
+}
+.input{
+  width: 340px;
+}
+.form {
+ padding-left: 1px;
+}
 }
